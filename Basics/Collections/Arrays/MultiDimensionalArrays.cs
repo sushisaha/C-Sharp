@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoQA.Basics.Arrays
+namespace BasicCSharp.Basics.Collections.Arrays
 {
     public class MultiDimensionalArrays
     {
@@ -16,9 +16,9 @@ namespace DemoQA.Basics.Arrays
             int[,] matrix = new int[rows, cols]; // declaration of matrix
 
             int element = 1;
-            for (int i=0; i<rows; i++) // traverse row
+            for (int i = 0; i < rows; i++) // traverse row
             {
-                for (int j=0; j<cols; j++) // traverse column for each row
+                for (int j = 0; j < cols; j++) // traverse column for each row
                 {
                     matrix[i, j] = element; // assignment
                     element++;
@@ -28,7 +28,7 @@ namespace DemoQA.Basics.Arrays
             for (int i = 0; i < rows; i++) // display
             {
                 for (int j = 0; j < cols; j++)
-                    Console.Write(matrix[i,j] + "\t");
+                    Console.Write(matrix[i, j] + "\t");
                 Console.WriteLine();
             }
         }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoQA.Basics.Arrays
+namespace BasicCSharp.Basics.Collections.Arrays
 {
     internal class Arrays
     {

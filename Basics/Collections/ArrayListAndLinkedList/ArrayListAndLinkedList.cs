@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoQA.Basics.Collections
+namespace BasicCSharp.Basics.Collections.ArrayListAndLinkedList
 {
     public class Collections
     {
@@ -33,7 +33,7 @@ namespace DemoQA.Basics.Collections
 
             //Console.WriteLine(fruits);
 
-            PrintArrayList();            
+            PrintArrayList();
 
             fruits.Remove(3); // remove item 3
             Console.WriteLine("Removed 3");
