@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoQA.Assignments.Array
+namespace CSharp.Assignments.Array
 {
     internal class ArrayCodes
     {
