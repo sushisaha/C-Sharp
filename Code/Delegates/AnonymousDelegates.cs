@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Code.Delegates
 {
-    internal class AnonymousDelegate
+    internal class AnonymousDelegates
     {
         public delegate void AnonymousDel(String msg);
 

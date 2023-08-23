@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Code.Delegates
 {
-    internal class GenericDelegate
+    internal class GenericDelegates
     {
         [Test]
         public void Main()

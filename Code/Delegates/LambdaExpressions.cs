@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Code.Delegates
 {
-    internal class LambdaExpression
+    internal class LambdaExpressions
     {
         public delegate void LambdaDel1(String msg); // single parameter
         public delegate void LambdaDel2(String msg1, String msg2); // multiple parameter

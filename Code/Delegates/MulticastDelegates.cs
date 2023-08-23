@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Code.Delegates
 {
-    internal class MulticastDelegate
+    internal class MulticastDelegates
     {
         public delegate void MultiDelegate();
 
